@@ -16,7 +16,7 @@ From the `out` folder:
 npx serve .
 ```
 
-Copy `assets` to `out` too.
+Copy `assets`, contents of `out.example` to `out` too.
 
 ## Notes
 
