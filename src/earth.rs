@@ -57,6 +57,7 @@ fn spawn_earth(
                 TAU / 2.0,
             )),
             mesh: meshes.add(sphere),
+            // https://github.com/nicopap/bevy_mod_paramap/blob/main/examples/earth3d.rs
             material: materials.add(ParallaxMaterial {
                 // reduce roughness set in the "earth/metallic_roughness.png" file
                 perceptual_roughness: 0.75,
